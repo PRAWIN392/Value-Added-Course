@@ -17,5 +17,4 @@ movies <- movie_table[, 2:3]
 View (movies)
 
 str(movies)
-
 write.csv(movies,"imdb_scrap.csv")
